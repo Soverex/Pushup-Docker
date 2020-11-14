@@ -1,0 +1,8 @@
+build:
+  docker:
+    flask: flask/Dockerfile
+    nginx: nginx/Dockerfile
+    
+run:
+  flask: bundle exec puma -C config/puma.rb
+  nginx: bundle exec puma -C config/puma.rb
