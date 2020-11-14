@@ -1,4 +1,4 @@
-FROM python:3.4.5-slim
+FROM python:3.9.0
 
 # Upgrade pip
 RUN pip install --upgrade pip
